@@ -1,0 +1,1000 @@
+  870  python3 -version
+  871  cd First_Flight/CodeHawks---Findings/
+  872  code .
+  873  cd ..
+  874  cd 2024-03-kitty-connect/
+  875  code .
+  876  python3
+  877  cd Cyfrin/
+  878  git clone https://github.com/crytic/slither.git
+  879  cd slither/
+  880  python3 -m pip install
+  881  pip help install 
+  882  clear
+  883  python3 -m pip install .
+  884  cd ..
+  885  rmdir slither/
+  886  cd slither/
+  887  ls -al
+  888  cd ..
+  889  rm -r slither/
+  890  ls -al
+  891  git clone https://github.com/crytic/slither.git
+  892  cd slither/
+  893  git checkout dev
+  894  make dev
+  895  apt update
+  896  apt install python3.10-venv
+  897  sudo apt install python3.10-venv
+  898  make dev
+  899  mkdir test
+  900  make dev
+  901  rmdir test
+  902  python3 -m venv venv
+  903  source venv/bin/activate
+  904  python3 -m pip install .
+  905  mkdir test
+  906  cd ..
+  907  cd First_Flight/2024-03-kitty-connect/
+  908  ls -al
+  909  cp ./src/KittyConnect.sol ../../Cyfrin/slither/test/.
+  910  cd
+  911  cd Cyfrin/slither/test
+  912  slither KittyConnect.sol
+  913  slither --help
+  914  slither .
+  915  git add .
+  916  git commit -m "Adding Medium vuln M1"
+  917  git push -u origin main
+  918  cd Cyfrin/slither/test
+  919  source venv/bin/activate
+  920  python3 -m venv venv
+  921  source venv/bin/activate
+  922  slither ../../../First_Flight/2024-03-kitty-connect/src/KittyConnect.sol 
+  923  solc --version
+  924  slither --help
+  925  cd ../..
+  926  cd ..
+  927  cd First_Flight/2024-03-kitty-connect/
+  928  code .
+  929  deactivate
+  930  cd ..
+  931  cd CodeHawks---Findings/
+  932  code .
+  933  cd First_Flight/2024-03-kitty-connect/
+  934  code .
+  935  make deploy
+  936  cast send 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512 "mintCatToNewOwner(address, string, string, string, uint256)"  --private-key ac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80 --rpc-url http://127.0.0.1:8545
+  937  cast call 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512 "getAllKittyShops()"  --private-key ac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80 --rpc-url http://127.0.0.1:8545
+  938  make anvil
+  939  cd First_Flight/2024-03-kitty-connect/
+  940  code .
+  941  cd Cyfrin/foundry-f23/foundry-nft-f23/
+  942  ls -al
+  943  code .
+  944  git config --global user.name "activiteOCR"
+  945  git config --global user.email "julienterrierlion@gmail.com"
+  946  forge init --force
+  947  forge install OpenZeppelin/openzeppelin-contracts --no-commit
+  948  forge build
+  949  cd Cyfrin/
+  950  ls -al
+  951  cd foundry-f23/
+  952  ls -al
+  953  mkdir foundry-defi-stablecoin-f23
+  954  cd foundry-defi-stablecoin-f23/
+  955  code .
+  956  cd Cyfrin/foundry-f23/foundry-defi-stablecoin-f23/
+  957  code .
+  958  forge install smartcontractkit/chainlink-brownie-contracts@0.6.1 --no-commit
+  959  clear
+  960  forge build
+  961  source .env
+  962  cd Cyfrin/foundry-f23/foundry-defi-stablecoin-f23/
+  963  code .
+  964  cd ../foundry-nft-f23/
+  965  ls -al
+  966  cat .env
+  967  cp .env ../foundry-defi-stablecoin-f23/.
+  968  cd Cyfrin/foundry-f23/foundry-defi-stablecoin-f23/
+  969  code .
+  970  git add .
+  971  git commit -m "update"
+  972  git push -u origin main
+  973  forge test
+  974  forge coverage
+  975  clear
+  976  forge test --match-test testCreateMartenitsa
+  977  forge test --match-test testCreateMartenitsaCalledByNonProducer
+  978  forge test --match-test testCreateMartenitsaCalledWithDesignEqualZero
+  979  cd Cyfrin/
+  980  ls -al
+  981  cd ..
+  982  cd First_Flight/
+  983  ls -al
+  984  cd CodeHawks---Findings/
+  985  code .
+  986  cd ..
+  987  cd 2024-03-kitty-connect/
+  988  code .
+  989  cd ..
+  990  git clone https://github.com/Cyfrin/2024-04-Baba-Marta.git
+  991  cd 2024-04-Baba-Marta/
+  992  code .
+  993  forge test --match-test testCreateMartenitsaCalledWithDesignEqualZero
+  994  forge test --match-test testCreateMartenitsaCalledWithDesignEqualZero -vvvv
+  995  forge build
+  996  forge test --match-test testCreateMartenitsaCalledWithDesignEqualZero -vvvv
+  997  forge test --match-test testCreateMartenitsa -vvv
+  998  forge test --match-test testCreateMartenitsa -vvvv
+  999  forge build
+ 1000  forge test --match-test testCreateMartenitsa -vvvv
+ 1001  forge build
+ 1002  forge test --match-test testCreateMartenitsa -vvvv
+ 1003  forge build
+ 1004  forge test --match-test testCreateMartenitsa -vvvv
+ 1005  forge build
+ 1006  forge test --match-test testCreateMartenitsaCalledWithDesignEqualZero -vvvv
+ 1007  cd First_Flight/
+ 1008  cd CodeHawks---Findings/
+ 1009  code .
+ 1010  cd ../2024-04-Baba-Marta/
+ 1011  code .
+ 1012  forge test --match-test testGetNextTokenId
+ 1013  forge test --match-test testGetDesign
+ 1014  forge test --match-test testUpdateCount
+ 1015  cd First_Flight/2024-04-Baba-Marta/
+ 1016  code .
+ 1017  forge test --match-test testUpdateCount
+ 1018  forge test --match-test testDistributeHealthToken
+ 1019  forge test --match-test testUpdateCount
+ 1020  forge test --match-test testDistributeHealthToken
+ 1021  forge test --match-test testUpdateCount
+ 1022  forge test --match-test testDistributeHealthToken
+ 1023  forge test --match-test testCollectReward
+ 1024  forge test --match-test testVulnCollectReward
+ 1025  forge test --match-test testVulnCollectReward -vvvv
+ 1026  forge test --match-test testHealthTokenTotalsupply -vvvv
+ 1027  forge test --match-test testHealthTokenTotalSupply -vvvv
+ 1028  forge test --match-test testProducerVoteForMartenitsa
+ 1029  forge test --match-test testProducerVoteForMartenitsa -vvvv
+ 1030  clear
+ 1031  forge test --match-test testVoteForMartenitsaIsActive -vvvv
+ 1032  forge test --match-test testVoteForMartenitsa
+ 1033  forge test --match-test testVoteForMartenitsa -vvvv
+ 1034  forge test --match-test testVoteForMartenitsaIsActive -vvvv
+ 1035  forge test --match-test testVoteForMartenitsa -vvvv
+ 1036  clear
+ 1037  forge test --match-test testVoteForMartenitsa -vvvv
+ 1038  forge test --match-test testProducerVoteForMartenitsa -vvvv
+ 1039  clear
+ 1040  forge test --match-test testVoteForMartenitsaIsActive -vvvv
+ 1041  forge test --match-test testVoteForMartenitsaIsNotActive -vvvv
+ 1042  forge test --match-test testVoteForMartenitsa -vvvv
+ 1043  git add .
+ 1044  git commit - m "Adding H-01 and L-01 vuln"
+ 1045  git commit -m "Adding H-01 and L-01 vuln"
+ 1046  git push -u origin main
+ 1047  git commit - m "Adding H-01 and L-01 vuln"
+ 1048  git add .
+ 1049  git commit -m "Adding M-01 vuln"
+ 1050  git push -u origin main
+ 1051  git add .
+ 1052  git commit -m "Adding M-02 vuln"
+ 1053  git push -u origin main
+ 1054  git add .
+ 1055  git commit -m "Updating M-02 vuln"
+ 1056  git push -u origin main
+ 1057  cd First_Flight/2024-04-Baba-Marta/
+ 1058  code .
+ 1059  cd ..
+ 1060  cd CodeHawks---Findings/
+ 1061  code .
+ 1062  cd ../../Cyfrin/foundry-f23/foundry-erc20-f23/
+ 1063  code .
+ 1064  forge test --match-test testVoteForMartenitsa -vvvv
+ 1065  clear
+ 1066  forge test --match-test testVoteForMartenitsa -vvvv
+ 1067  forge build
+ 1068  clear
+ 1069  forge test --match-test testVoteForMartenitsa -vvvv
+ 1070  forge test --match-test testAnnounceWinner -vvvv
+ 1071  clear
+ 1072  forge test --match-test testAnnounceWinner -vvvv
+ 1073  clear
+ 1074  git add .
+ 1075  git commit -m "Adding L-03 vuln"
+ 1076  git push -u origin main
+ 1077  git add .
+ 1078  git commit -m "Adding H-02 vuln"
+ 1079  git push -u origin main
+ 1080  git add .
+ 1081  git commit -m "Adding H-02 vuln"
+ 1082  git push -u origin main
+ 1083  git add .
+ 1084  git commit -m "Adding H-02 vuln"
+ 1085  git push -u origin main
+ 1086  git add .
+ 1087  git commit -m "Cleaning title"
+ 1088  git push -u origin main
+ 1089  cd First_Flight/2024-04-Baba-Marta/
+ 1090  code .
+ 1091  cd ..
+ 1092  cd CodeHawks---Findings/
+ 1093  code .
+ 1094  git add .
+ 1095  git commit -m "Adding H-03 vuln"
+ 1096  git add .
+ 1097  git commit -m "Adding H-03 vuln"
+ 1098  git push -u origin main
+ 1099  cd First_Flight/CodeHawks---Findings/
+ 1100  code .
+ 1101  cd ../2024-04-Baba-Marta/
+ 1102  code .
+ 1103  history
+ 1104  python3 -m venv venv
+ 1105  source venv/bin/activate
+ 1106  slither ./src/MartenitsaToken.sol
+ 1107  cd src
+ 1108  slither .
+ 1109  solc --version
+ 1110  slither -help
+ 1111  slither --help
+ 1112  deactivate
+ 1113  slither --help
+ 1114  slither .
+ 1115  ## Summary
+ 1116  `MartenitsaEvent:startEvent` `uint256 public eventEndTime` can lead to unconsiderer revert (through built-in overflow protection) during the execution of startEvent function.. `uint256 public eventEndTime` get the result of two uint256 variables.
+ 1117  ## Vulnerability Details
+ 1118  lvalue eventStartTime and eventDuration are declared both as `uint256` the result of adding these 2 lvalue can lead to unconsiderer revert (through built-in overflow protection) during the calcul of the eventEndTime lvalue, this is the operation performed on line 33 of the `MartenitsaEvent.sol` contract
+ 1119  Nota: From version 0.8.0 onward, Solidity includes built-in overflow and underflow protection by default. Arithmetic operations automatically revert if they result in an overflow or underflow.
+ 1120  ```cpp
+ 1121      uint256 public eventStartTime;
+ 1122      uint256 public eventDuration;
+ 1123      uint256 public eventEndTime;
+ 1124  ```
+ 1125  ```cpp
+ 1126      eventEndTime = eventStartTime + duration;
+ 1127  ```
+ 1128  ## Impact
+ 1129  Unconsiderer revert (through built-in overflow protection) can occur during the calcul of the eventEndTime, owner the owner may not understand that this is the reason for the revert
+ 1130  ## Tools Used
+ 1131  Manuel review
+ 1132  ## Recommendations
+ 1133  Using Custom Error Handling
+ 1134  ```cpp
+ 1135      error OverflowDetected();
+ 1136  ```
+ 1137  ```cpp
+ 1138      function startEvent(uint256 duratioclear
+ 1139  exit
+ 1140  q:
+ 1141  q
+ 1142  quit
+ 1143  cd First_Flight/CodeHawks---Findings/
+ 1144  code .
+ 1145  cd ..
+ 1146  cd 2024-04-Baba-Marta/
+ 1147  code .
+ 1148  cd ..
+ 1149  cd
+ 1150  cd Cyfrin/
+ 1151  ls -al
+ 1152  cd slither/
+ 1153  ls -al
+ 1154  cd test
+ 1155  ls -al
+ 1156  python3 -m venv venv
+ 1157  source venv/bin/activate
+ 1158  slither .
+ 1159  deactivate
+ 1160  clear
+ 1161  cd 
+ 1162  cd First_Flight/2024-04-Baba-Marta/
+ 1163  python3 -m venv venv
+ 1164  source venv/bin/activate
+ 1165  code .
+ 1166  deactivate
+ 1167  git add .
+ 1168  git commit -m "Adding L-03 vuln"
+ 1169  git push -u origin main
+ 1170  git add .
+ 1171  git commit -m "Adding L-03 vuln"
+ 1172  git push -u origin main
+ 1173  git add .
+ 1174  git commit -m "Adding M-03 vuln"
+ 1175  git push -u origin main
+ 1176  cd Cyfrin/foundry-f23/
+ 1177  ls -al
+ 1178  cd foundry-erc20-f23/
+ 1179  code .
+ 1180  npm run start-adventure
+ 1181  npm version
+ 1182  npm --version
+ 1183  exit
+ 1184  mkdir Node_Guardians
+ 1185  cd Node_Guardians/
+ 1186  git clone https://github.com/activiteOCR/ng-questplay.git
+ 1187  ls -al
+ 1188  cd ng-questplay/
+ 1189  code .
+ 1190  npm run start-adventure
+ 1191  cd ..
+ 1192  rm -rf ng-questplay/.
+ 1193  rm -rf ng-questplay/
+ 1194  ls -al
+ 1195  cd ..
+ 1196  rm -rf Node_Guardians/
+ 1197  ls -al
+ 1198  cd Cyfrin/
+ 1199  cd foundry-f23/foundry-erc20-f23/
+ 1200  ls -al
+ 1201  cd src/
+ 1202  ls -al
+ 1203  cat OurToken.sol 
+ 1204  cat ManualToken.sol 
+ 1205  forge test --match-test testGetUsdValue
+ 1206  clear
+ 1207  forge test --match-test testGetUsdValue
+ 1208  forge test
+ 1209  cd Cyfrin/foundry-f23/foundry-defi-stablecoin-f23/
+ 1210  code .
+ 1211  npm install && cd app && npm install
+ 1212  ls -al
+ 1213  cd alchemy_university/
+ 1214  ls -al
+ 1215  cd week_5
+ 1216  ls -al
+ 1217  git clone https://github.com/alchemyplatform/escrow-hardhat.git
+ 1218  cd escrow-hardhat/
+ 1219  code .
+ 1220  cd ..
+ 1221  rm -rf escrow-hardhat/
+ 1222  git config --global user.email "julienterrierlion@gmail.com"
+ 1223  git config --global user.name "activiteOCR"
+ 1224  forge init --force
+ 1225  forge build
+ 1226  source .env
+ 1227  make deploy
+ 1228  forge build
+ 1229  make deploy ARGS="--network sepolia"
+ 1230  history
+ 1231  clear
+ 1232  make deploy ARGS="--network sepolia"
+ 1233  clear
+ 1234  forge build
+ 1235  make deploy ARGS="--network sepolia"
+ 1236  forge build
+ 1237  make deploy ARGS="--network sepolia"
+ 1238  forge build
+ 1239  make deploy ARGS="--network sepolia"
+ 1240  clear
+ 1241  forge build
+ 1242  make deploy ARGS="--network sepolia"
+ 1243  clear
+ 1244  forge build
+ 1245  make deploy ARGS="--network sepolia"
+ 1246  forge build
+ 1247  make deploy ARGS="--network sepolia"
+ 1248  ls -al
+ 1249  mkdir Node_Guardians
+ 1250  cd Node_Guardians/
+ 1251  mkdir Standalone_Quests
+ 1252  cd Standalone_Quests/
+ 1253  mkdir Low_Level_Calls
+ 1254  cd Low_Level_Calls/
+ 1255  code .
+ 1256  cd ../../../Cyfrin/foundry-f23/
+ 1257  ls -al
+ 1258  cd foundry-erc20-f23/
+ 1259  ls -al
+ 1260  cd ..
+ 1261  ls -al
+ 1262  cd foundry-smart-contract-lottery-f23/
+ 1263  ls -al
+ 1264  cp .env ../../../Node_Guardians/Standalone_Quests/Low_Level_Calls/.
+ 1265  cd script/
+ 1266  ls -al
+ 1267  cp HelperConfig.s.sol ../../../../Node_Guardians/Standalone_Quests/Low_Level_Calls/script/.
+ 1268  cd ..
+ 1269  ls -al
+ 1270  cp Makefile ../../../Node_Guardians/Standalone_Quests/Low_Level_Calls/.
+ 1271  forge build
+ 1272  forge test
+ 1273  forge coverage
+ 1274  clear
+ 1275  forge test --match-test testRevertsIfTokenLengthDoesntMatchPriceFeeds
+ 1276  forge test --match-test testGetTokenAmountFromUsd
+ 1277  forge build
+ 1278  clear
+ 1279  forge build
+ 1280  forge test --match-test testRevertWithUnapprovedCollateral
+ 1281  forge test --match-test testRevertWithUnapprovedCollateral -vvvv
+ 1282  forge test --match-test testRevertsWithUnapprovedCollateral -vvvv
+ 1283  forge test --match-test testCanDepositedCollateralAndGetAccountInfo -vvvv
+ 1284  forge test --match-test testCanDepositedCollateralAndGetAccountInfo
+ 1285  clear
+ 1286  forge coverage
+ 1287  forge coverage --report debug > coverage.txt
+ 1288  forge test --match-test testDepositFailsOnTransferFailure
+ 1289  forge test --match-test testDepositFailsOnTransferFailure -vvvv
+ 1290  clear
+ 1291  forge test --match-test testDepositFailsOnTransferFailure -vvvv
+ 1292  forge coverage
+ 1293  forge coverage --report debug > coverage.txt
+ 1294  forge test --match-test testDepositCollateralAndMintDSC
+ 1295  forge test --match-test testDepositCollateralAndMintDSC -vvvv
+ 1296  clear
+ 1297  forge test --match-test testDepositCollateralAndMintDSC -vvvv
+ 1298  clear
+ 1299  forge test --match-test testDepositCollateralAndMintDSC -vvvv
+ 1300  forge coverage --report debug > coverage.txt
+ 1301  forge coverage
+ 1302  forge test --match-test testRedeemCollateralForDSCSuccess
+ 1303  clear
+ 1304  forge test --match-test testRedeemCollateralForDSCSuccess -vvvv
+ 1305  forge test --match-test testDepositCollateralAndMintDSC -vvvv
+ 1306  forge coverage
+ 1307  forge test --match-test testDepositCollateralAndMintDSC -vvvv
+ 1308  forge coverage
+ 1309  forge coverage --report debug > coverage.txt
+ 1310  forge test
+ 1311  forge test --match-test testRedeemCollateralForDSCSuccess -vvvv
+ 1312  clear
+ 1313  forge test --match-test testRedeemCollateralForDSCSuccess -vvvv
+ 1314  clear
+ 1315  forge test --match-test testRedeemCollateralForDSCSuccess -vvvv
+ 1316  clear
+ 1317  forge test --match-test testRedeemCollateralForDSCSuccess -vvvv
+ 1318  clear
+ 1319  forge test --match-test testRedeemCollateralForDSCSuccess -vvvv
+ 1320  clear
+ 1321  forge test --match-test testRedeemCollateralForDSCSuccess -vvvv
+ 1322  forge test --match-test testCanBurnDsc
+ 1323  forge test --match-test testCanBurnDsc -vvvv
+ 1324  forge build
+ 1325  forge test --match-test testCanBurnDsc -vvvv
+ 1326  forge test --match-test testRedeemCollateralForDSCSuccess -vvvv
+ 1327  forge coverage
+ 1328  forge coverage --report debug > coverage.txt
+ 1329  forge test --match-test testRevertIfMintFailed
+ 1330  forge test --match-test testRevertIfMintFailed -vvvv
+ 1331  clear
+ 1332  forge test --match-test testRevertIfMintFailed -vvvv
+ 1333  clear
+ 1334  forge test --match-test testRevertIfMintFailed -vvvv
+ 1335  clear
+ 1336  forge test --match-test testRevertIfMintFailed -vvvv
+ 1337  cd Cyfrin/foundry-f23/foundry-defi-stablecoin-f23/
+ 1338  code .
+ 1339  forge coverage
+ 1340  forge test --match-test testRevertIfMintFailed -vvvv
+ 1341  clear
+ 1342  forge test --match-test testRevertIfMintFailed -vvvv
+ 1343  clear
+ 1344  forge test --match-test testRevertIfMintFailed -vvvv
+ 1345  clear
+ 1346  forge test --match-test testRevertIfMintFailed -vvvv
+ 1347  clear
+ 1348  forge test --match-test testRevertsIfMintAmountIsZero
+ 1349  forge test
+ 1350  forge coverage
+ 1351  clear
+ 1352  forge test --match-test testRevertsIfMintFails
+ 1353  forge build
+ 1354  clear
+ 1355  forge test --match-test testRevertsIfMintFails
+ 1356  forge test --match-test testRevertsIfMintFails -vvvv
+ 1357  forge coverage
+ 1358  forge coverage --report debug > coverage.txt
+ 1359  forge test --match-test testCanRedeemCollateral
+ 1360  forge test --match-test testCanRedeemCollateral -vvvv
+ 1361  forge coverage --report debug > coverage.txt
+ 1362  forge coverage
+ 1363  clear
+ 1364  forge test --match-test testCanLiquidateWithGoodHealthFactor
+ 1365  forge coverage
+ 1366  forge coverage --report debug > coverage.txt
+ 1367  forge test --match-test testMustRevertIfHealthFactorKo
+ 1368  forge coverage
+ 1369  forge coverage --report debug > coverage.txt
+ 1370  forge test --match-test testCantLiquidateGoodHealthFactor
+ 1371  forge coverage --report debug > coverage.txt
+ 1372  forge coverage
+ 1373  forge test
+ 1374  forge coverage
+ 1375  forge test
+ 1376  forge covergae
+ 1377  forge coverage
+ 1378  forge test --match-test testProperlyReportsHealthFactor
+ 1379  forge coverage
+ 1380  forge test --match-test testHealthFactorCanGoBelowOne
+ 1381  forge test --match-test testHealthFactorCanGoBelowOne -vvvv
+ 1382  forge test --match-test testHealthFactorCanGoBelowOne
+ 1383  forge test --match-test testHealthFactorCanGoBelowOne -vvvv
+ 1384  forge test
+ 1385  forge test --match-test testHealthFactorCanGoBelowOne -vvvv
+ 1386  forge test
+ 1387  forge coverage
+ 1388  forge coverage --report debug > coverage.tx
+ 1389  clear
+ 1390  forge test
+ 1391  clear
+ 1392  forge test --match-test testLiquidatorTakesOnUsersDebt -vvvv
+ 1393  clear
+ 1394  forge test --match-test testLiquidatorTakesOnUsersDebt -vvvv
+ 1395  clear
+ 1396  forge test --match-test testLiquidatorTakesOnUsersDebt -vvvv
+ 1397  clear
+ 1398  forge test --match-test testLiquidatorTakesOnUsersDebt -vvvv
+ 1399  clear
+ 1400  forge test --match-test testLiquidatorTakesOnUsersDebt -vvvv
+ 1401  clear
+ 1402  forge test --match-test testLiquidatorTakesOnUsersDebt -vvvv
+ 1403  clear
+ 1404  forge test --match-test testLiquidatorTakesOnUsersDebt -vvvv
+ 1405  clear
+ 1406  forge test --match-test testLiquidatorTakesOnUsersDebt -vvvv
+ 1407  clear
+ 1408  forge test --match-test testLiquidatorTakesOnUsersDebt -vvvv
+ 1409  clear
+ 1410  forge test --match-test testLiquidatorTakesOnUsersDebt -vvvv
+ 1411  cd Cyfrin/foundry-f23/foundry-defi-stablecoin-f23/
+ 1412  code .
+ 1413  cd First_Flight/
+ 1414  ls -al
+ 1415  cargo --version
+ 1416  curl https://sh.rustup.rs -sSf | sh
+ 1417  git clone git@github.com:matter-labs/foundry-zksync.git
+ 1418  git config --global user.email "julienterrierlion@gmail.com"
+ 1419  git config --global user.name "activiteOCR"
+ 1420  git clone git@github.com:matter-labs/foundry-zksync.git
+ 1421  git clone https://github.com/matter-labs/foundry-zksync.git
+ 1422  cd foundry-zksync
+ 1423  clear
+ 1424  chmod +x ./install-foundry-zksync
+ 1425  ./install-foundry-zksync
+ 1426  forge --version
+ 1427  yarn --version
+ 1428  node --version
+ 1429  npm install --global yarn
+ 1430  node --version
+ 1431  yarn --version
+ 1432  npm install --global yarn
+ 1433  yarn --version
+ 1434  node --version
+ 1435  sudo apt update
+ 1436  sudo apt install nodejs
+ 1437  sudo apt install npm
+ 1438  npm install -g yarn
+ 1439  forge test --zksync
+ 1440  yarn
+ 1441  forge test --zksync
+ 1442  yarn --version
+ 1443  forge build --help | grep zksync
+ 1444  cd First_Flight/
+ 1445  git clone https://github.com/Cyfrin/2024-04-airdropper.git
+ 1446  cd 2024-04-airdropper/
+ 1447  make
+ 1448  code .
+ 1449  cd First_Flight/2024-04-airdropper/
+ 1450  code .
+ 1451  git add .
+ 1452  git commit -m "Adding First Flight #14 Air Dropper"
+ 1453  git push -u origin main
+ 1454  forge test --zksync
+ 1455  cd First_Flight/2024-04-airdropper/
+ 1456  code .
+ 1457  cd ..
+ 1458  ls -al
+ 1459  cd CodeHawks---Findings/
+ 1460  ls -al
+ 1461  cp First-Flight-#13-Baba-Marta.md ./First-Flight-#14-airdropper.md
+ 1462  ls -al
+ 1463  code .
+ 1464  forge test --zksync
+ 1465  forge test --zksync --match-test testPwned -vvvv
+ 1466  forge test --zksync --match-test testUsersCanClaim -vvvv
+ 1467  forge test --zksync --match-test testOwnerCanClaimFees -vvvv
+ 1468  clear
+ 1469  forge test --zksync --match-test testOwnerCanClaimFees -vvvv
+ 1470  clear
+ 1471  forge test --zksync --match-test testOwnerCanClaimFees -vvvv
+ 1472  clear
+ 1473  forge test --zksync --match-test testOwnerCanClaimFees -vvvv
+ 1474  forge test --zksync --match-test testClaimFeesRevertIfTransferFailed -vvvv
+ 1475  clear
+ 1476  forge test --zksync --match-test testClaimFeesRevertIfTransferFailed -vvvv
+ 1477  clear
+ 1478  forge test --zksync --match-test testClaimFeesRevertIfTransferFailed -vvvv
+ 1479  clear
+ 1480  forge test --zksync --match-test testClaimFeesRevertIfTransferFailed -vvvv
+ 1481  forge test --zksync --match-test testClaimFeesRevert -vvvv
+ 1482  clear
+ 1483  forge test --zksync --match-test testClaimFeesRevertIfTransferFailed -vvvv
+ 1484  clear
+ 1485  forge test --zksync --match-test testClaimFeesRevertIfBalanceEqualZero -vvvv
+ 1486  clear
+ 1487  forge test --zksync --match-test testClaimFeesRevertIfTransferFailed -vvvv
+ 1488  forge test --zksync --match-test testOwnerCanClaimFees -vvvv
+ 1489  clear
+ 1490  forge test --zksync --match-test testOwnerCanClaimFees -vvvv
+ 1491  clear
+ 1492  forge test --zksync --match-test testOwnerCanClaimFees -vvvv
+ 1493  clear
+ 1494  forge test --zksync --match-test testOwnerCanClaimFees -vvvv
+ 1495  clear
+ 1496  forge test --zksync --match-test testOwnerCanClaimFees -vvvv
+ 1497  clear
+ 1498  forge test --zksync --match-test testOwnerCanClaimFees -vvvv
+ 1499  forge test --zksync --match-test testClaimFeesRevertIfTransferFailed -vvvv
+ 1500  clear
+ 1501  forge test --zksync --match-test testClaimFeesRevertIfTransferFailed -vvvv
+ 1502  forge test --zksync --match-test testOwnerCanClaimFees -vvvv
+ 1503  clear
+ 1504  forge test --zksync --match-test testOwnerCanClaimFees -vvvv
+ 1505  forge test --zksync --match-test testClaimFeesRevertIfTransferFailed -vvvv
+ 1506  forge test --zksync --match-test testOwnerCanClaimFees -vvvv
+ 1507  clear
+ 1508  forge test --zksync --match-test testOwnerCanClaimFees -vvvv
+ 1509  clear
+ 1510  forge test --zksync --match-test testOwnerCanClaimFees -vvvv
+ 1511  clear
+ 1512  forge test --zksync --match-test testOwnerCanClaimFees -vvvv
+ 1513  clear
+ 1514  forge test --zksync --match-test testOwnerCanClaimFees -vvvv
+ 1515  clear
+ 1516  forge test --zksync --match-test testOwnerCanClaimFees -vvvv
+ 1517  clear
+ 1518  forge test --zksync --match-test testOwnerCanClaimFees -vvvv
+ 1519  clear
+ 1520  forge test --zksync --match-test testOwnerCanClaimFees -vvvv
+ 1521  clear
+ 1522  forge test --zksync --match-test testOwnerCanClaimFees -vvvv
+ 1523  clear
+ 1524  forge test --zksync --match-test testOwnerCanClaimFees -vvvv
+ 1525  forge test --zksync --match-test testClaimFeesRevertIfBalanceEqualZero
+ 1526  clear
+ 1527  testClaimFeesRevertIfTransferFailed
+ 1528  clear
+ 1529  forge test --zksync --match-test testClaimFeesRevertIfTransferFailed -vvvv
+ 1530  clear
+ 1531  forge test --zksync --match-test testClaimFeesRevertIfTransferFailed -vvvv
+ 1532  clear
+ 1533  forge test --zksync --match-test testClaimFeesRevertIfTransferFailed -vvvv
+ 1534  clear
+ 1535  forge test --zksync --match-test testClaimFeesRevertWithInsufficientBalance -vvvv
+ 1536  forge test --zksync --match-test testClaimFeesRevertIfTransferFailed -vvvv
+ 1537  clear
+ 1538  forge test --zksync --match-test testClaimFeesRevertIfTransferFailed -vvvv
+ 1539  history
+ 1540  python3 -m venv venv
+ 1541  source venv/bin/activate
+ 1542  slither .
+ 1543  deactivate
+ 1544  forge test --zksync --match-test testClaimFeesRevertIfTransferFailed -vvvv
+ 1545  clear
+ 1546  forge test --zksync --match-test testRunFunction -vvvv
+ 1547  forge test --zksync --match-test testDeployment -vvvv
+ 1548  make test
+ 1549  make coverage
+ 1550  forge test --zksync --match-test testRevertIfInvalidFeeAmount -vvvv
+ 1551  clear
+ 1552  forge test --zksync --match-test testRevertIfInvalidFeeAmount -vvvv
+ 1553  clear
+ 1554  forge test --zksync --match-test testRevertIfInvalidFeeAmount -vvvv
+ 1555  make coverage
+ 1556  forge test --zksync --match-test testRevertIfInvalidAccount -vvvv
+ 1557  python3 -m venv venv
+ 1558  source venv/bin/activate
+ 1559  slither .
+ 1560  deactivate
+ 1561  python3 -m venv venv
+ 1562  source venv/bin/activate
+ 1563  slither .
+ 1564  make slither
+ 1565  deactivate
+ 1566  python3 -m venv venv
+ 1567  source venv/bin/activate
+ 1568  make slither
+ 1569  clear
+ 1570  make slither
+ 1571  make build
+ 1572  make slither
+ 1573  make aderyn
+ 1574  make markle
+ 1575  make merkle
+ 1576  make proof
+ 1577  deactivate
+ 1578  make merkle
+ 1579  make proof
+ 1580  clear
+ 1581  history
+ 1582  yarn --version
+ 1583  yarn run makeMerkle
+ 1584  yarn
+ 1585  yarn run makeMerkle
+ 1586  clear
+ 1587  cd First_Flight/2024-04-airdropper/
+ 1588  code .
+ 1589  cd ..
+ 1590  cd CodeHawks---Findings/
+ 1591  code .
+ 1592  make build
+ 1593  forge test --zksync --match-test testDeployment -vvvv
+ 1594  clear
+ 1595  forge test --zksync --match-test testDeployment -vvvv
+ 1596  source .env
+ 1597  forge build
+ 1598  make deploy
+ 1599  source .env
+ 1600  make deploy
+ 1601  history
+ 1602  make deployscript
+ 1603  history > history.txt
+ 1604  make deployscript
+ 1605  forge build
+ 1606  make deployscript
+ 1607  cd First_Flight/2024-04-airdropper/
+ 1608  code .
+ 1609  cd ..
+ 1610  cd CodeHawks---Findings/
+ 1611  code .
+ 1612  cd ../..
+ 1613  cd Cyfrin/foundry-f23/
+ 1614  ls -al
+ 1615  cd foundry-smart-contract-lottery-f23/
+ 1616  ls -al
+ 1617  cat .env 
+ 1618  cp .env ../../../First_Flight/2024-04-airdropper/.
+ 1619  cd
+ 1620  ls -al
+ 1621  cd .foundry/
+ 1622  ls -al
+ 1623  cd Keystores
+ 1624  cat Keystores
+ 1625  make deployscript
+ 1626  source .env
+ 1627  make deployscript
+ 1628  make deploytesnet
+ 1629  make deploymainnet
+ 1630  make deploytesnet
+ 1631  make deploytestnet
+ 1632  make deploymainnet
+ 1633  cd First_Flight/2024-04-airdropper/
+ 1634  code .
+ 1635  make deploymainnet
+ 1636  clear
+ 1637  source .env
+ 1638  make createtestnet
+ 1639  forge script script/Deploy.s.sol --rpc-url https://zksync/
+ 1640  -era-sepolia.blockpi.network/v1/rpc/public --private-key $PRIVATE_KEY --broadcast
+ 1641  forge script script/Deploy.s.sol --rpc-url $ZKSYNC_SEPOLIA_RPC_URL_V2 --private-key $PRIVATE_KEY --broadcast
+ 1642  forge create --rpc-url ${ZKSYNC_SEPOLIA_RPC_URL_V2} --private-key ${PRIVATE_KEY} src/MerkleAirdrop.sol:MerkleAirdrop --constructor-args 0xf69aaa25bd4dd10deb2ccd8235266f7cc815f6e9d539e9f4d47cae16e0c36a05 0x1d17CBcF0D6D143135aE902365D2E5e2A16538D4
+ 1643  forge create --rpc-url ${ZKSYNC_SEPOLIA_RPC_URL_V2} --private-key ${PRIVATE_KEY} MerkleAirdrop.sol:MerkleAirdrop --constructor-args 0xf69aaa25bd4dd10deb2ccd8235266f7cc815f6e9d539e9f4d47cae16e0c36a05 0x1d17CBcF0D6D143135aE902365D2E5e2A16538D4
+ 1644  forge build
+ 1645  forge create --rpc-url ${ZKSYNC_SEPOLIA_RPC_URL_V2} --private-key ${PRIVATE_KEY} MerkleAirdrop.sol:MerkleAirdrop --constructor-args 0xf69aaa25bd4dd10deb2ccd8235266f7cc815f6e9d539e9f4d47cae16e0c36a05 0x1d17CBcF0D6D143135aE902365D2E5e2A16538D4
+ 1646  forge create --rpc-url ${ZKSYNC_SEPOLIA_RPC_URL_V2} --private-key ${PRIVATE_KEY} src/MerkleAirdrop.sol:MerkleAirdrop --constructor-args 0xf69aaa25bd4dd10deb2ccd8235266f7cc815f6e9d539e9f4d47cae16e0c36a05 0x1d17CBcF0D6D143135aE902365D2E5e2A16538D4
+ 1647  clear
+ 1648  forge build
+ 1649  forge create --rpc-url ${ZKSYNC_SEPOLIA_RPC_URL_V2} --private-key ${PRIVATE_KEY} src/MerkleAirdrop.sol:MerkleAirdrop --constructor-args 0xf69aaa25bd4dd10deb2ccd8235266f7cc815f6e9d539e9f4d47cae16e0c36a05 0x1d17CBcF0D6D143135aE902365D2E5e2A16538D4
+ 1650  clear
+ 1651  forge create --rpc-url ${ZKSYNC_SEPOLIA_RPC_URL_V2} --private-key ${PRIVATE_KEY} src/MerkleAirdrop.sol:MerkleAirdrop --constructor-args 0xf69aaa25bd4dd10deb2ccd8235266f7cc815f6e9d539e9f4d47cae16e0c36a05 0x1d17CBcF0D6D143135aE902365D2E5e2A16538D4
+ 1652  make deploymainnet
+ 1653  forge test --zksync --match-test testRevertIfLowAmountToCollect
+ 1654  forge test --zksync --match-test testRevertIfLowAmountToCollect -vvvv
+ 1655  clear
+ 1656  forge test --zksync --match-test testRevertIfLowAmountToCollect -vvvv
+ 1657  forge test --zksync --match-test testRevertIfInvalidAccount -vvvv
+ 1658  forge test --zksync --match-test testRevertIfInvalidFeeAmount -vvvv
+ 1659  forge test --zksync --match-test testUsersCanClaim -vvvv
+ 1660  forge test --zksync --match-test testOwnerCanClaimFees -vvvv
+ 1661  forge test --zksync --match-test testClaimFeesRevertIfBalanceEqualZero -vvvv
+ 1662  clear
+ 1663  forge test --zksync --match-test testRevertIfLowAmountToCollect -vvvv
+ 1664  clear
+ 1665  forge test --zksync --match-test testRevertIfLowAmountToCollect -vvvv
+ 1666  clear
+ 1667  forge test --zksync --match-test testRevertIfLowAmountToCollect -vvvv
+ 1668  clear
+ 1669  forge test --zksync --match-test testRevertIfInvalidAccount -vvvv
+ 1670  clear
+ 1671  forge test --zksync --match-test testRevertIfInvalidAccount -vvvv
+ 1672  forge test --zksync --match-test testWrongUsers -vvvv
+ 1673  forge test --zksync --match-test testWrongUsers -vvv
+ 1674  forge test --zksync --match-test testWrongUsers -vvvvv
+ 1675  clear
+ 1676  forge test --zksync --match-test testWrongUsers -vvvvv
+ 1677  forge test --zksync --match-test testRevertIfInvalidAccount -vvvv
+ 1678  clear
+ 1679  forge test --zksync --match-test testRevertIfInvalidAccount -vvvv
+ 1680  clear
+ 1681  forge test --zksync --match-test testRevertIfHighAmountToCollect -vvvv
+ 1682  forge test --zksync --match-test testWrongUsers -vvvv
+ 1683  forge test --zksync --match-test testRevertIfInvalidAccount -vvvv
+ 1684  cd First_Flight/2024-04-airdropper/
+ 1685  code .
+ 1686  forge test --zksync --match-test testRevertIfInvalidAccount -vvvv
+ 1687  clear
+ 1688  forge test --zksync --match-test testRevertIfLowAmountToCollect -vvvv
+ 1689  forge test --zksync --match-test testRevertIfHighAmountToCollect -vvvv
+ 1690  forge test --zksync --match-test testRevertIfInvalidFeeAmount -vvvv
+ 1691  clear
+ 1692  forge test --zksync --match-test testRevertIfInvalidProof -vvvv
+ 1693  forge test --zksync --match-test testRevertIfInvalidFirstProof -vvvv
+ 1694  forge test --zksync --match-test testRevertIfInvalidSecondProof -vvvv
+ 1695  make deploymainnet
+ 1696  forge test --zksync --match-test testUsersCanDrain -vvvv
+ 1697  make deploymainnet
+ 1698  cd First_Flight/CodeHawks---Findings/
+ 1699  cd ..
+ 1700  cd 2024-04-airdropper/
+ 1701  code .
+ 1702  cd ..
+ 1703  cd CodeHawks---Findings/
+ 1704  code .
+ 1705  forge build
+ 1706  source .env
+ 1707  make deploytesnet
+ 1708  make deploytestnet
+ 1709  make deploymainnet
+ 1710  forge script script/Counter.s.sol --rpc-url https://zksync/-era-sepolia.blockpi.network/v1/rpc/public --private-key $PRIVATE_KEY --broadcast
+ 1711  forge script script/Counter.s.sol --rpc-url https://zksync-era-sepolia.blockpi.network/v1/rpc/public --private-key $PRIVATE_KEY --broadcast
+ 1712  forge script script/Counter.s.sol --rpc-url https://sepolia.era.zksync.dev --private-key $PRIVATE_KEY --broadcast
+ 1713  forge script script/Counter.s.sol --rpc-url https://sepolia.era.zksync.dev --private-key $PRIVATE_KEY:300 --broadcast
+ 1714  forge script script/Counter.s.sol --rpc-url https://sepolia.era.zksync.dev --private-key $PRIVATE_KEY --broadcast
+ 1715  forge build --zksync
+ 1716  forge create Counter --rpc-url $ZKSYNC_SEPOLIA_RPC_URL --private-key $PRIVATE_KEY 
+ 1717  forge create Counter.sol --rpc-url $ZKSYNC_SEPOLIA_RPC_URL --private-key $PRIVATE_KEY 
+ 1718  forge create --zksync Counter --rpc-url $ZKSYNC_SEPOLIA_RPC_URL --private-key $PRIVATE_KEY 
+ 1719  make coverage
+ 1720  make deploymainnet
+ 1721  clear
+ 1722  forge test --zksync --match-test testUsersCanDrain -vvvv
+ 1723  forge build
+ 1724  make deploytestnet
+ 1725  make deploymainnet
+ 1726  forge build --zksync
+ 1727  clear
+ 1728  forge build --zksync
+ 1729  cd First_Flight/2024-04-airdropper/
+ 1730  code .
+ 1731  cd ..
+ 1732  cd CodeHawks---Findings/
+ 1733  code .
+ 1734  cd ..
+ 1735  mkdir my-zksync-project
+ 1736  cd my-zksync-project
+ 1737  forge init
+ 1738  code .
+ 1739  cd ..
+ 1740  cd 2024-04-airdropper/
+ 1741  cp .env ../my-zksync-project/.
+ 1742  cp Makefile ../my-zksync-project/.
+ 1743  forge build --zksync
+ 1744  clear
+ 1745  forge build --zksync
+ 1746  cd First_Flight/2024-04-airdropper/
+ 1747  code .
+ 1748  cd /home/
+ 1749  ls -al
+ 1750  cd vesper3023/.local/share/svm/
+ 1751  ls -al
+ 1752  cd 
+ 1753  mkdir svm_bkp
+ 1754  cd /home/vesper3023/.local/share/svm/
+ 1755  ls -al
+ 1756  mv ./0.8.25/ /home/vesper3023/svm_bkp/.
+ 1757  ls -al
+ 1758  forge build --zksync
+ 1759  make deploymainnet
+ 1760  cd First_Flight/2024-04-airdropper/
+ 1761  code .
+ 1762  yarn
+ 1763  yarn run makeMerkle
+ 1764  make deploymainnet
+ 1765  seth calldata "claim(address,uint256,bytes32[])" 0x20F41376c713072937eb02Be70ee1eD0D639966C 25000000000000000000 ["0x32cee63464b09930b5c3f59f955c86694a4c640a03aa57e6f743d8a3ca5c8838" , "0x8ff683185668cbe035a18fccec4080d7a0331bb1bbc532324f40501de5e8ea5c"] 
+ 1766  history
+ 1767  source .env
+ 1768  cast send --zksync 0x0d582B1893613820C8F0A82Ab8ac238Aa815f2D3 "claim(address,uint256,bytes32[])" 0x20F41376c713072937eb02Be70ee1eD0D639966C 25000000000000000000 [0x32cee63464b09930b5c3f59f955c86694a4c640a03aa57e6f743d8a3ca5c8838 , 0x8ff683185668cbe035a18fccec4080d7a0331bb1bbc532324f40501de5e8ea5c] --private-key $PRIVATE_KEY --rpc-url $ZKSYNC_MAINNET_RPC_URL
+ 1769  cast send 0x0d582B1893613820C8F0A82Ab8ac238Aa815f2D3 "claim(address,uint256,bytes32[])" 0x20F41376c713072937eb02Be70ee1eD0D639966C 25000000000000000000 [0x32cee63464b09930b5c3f59f955c86694a4c640a03aa57e6f743d8a3ca5c8838 , 0x8ff683185668cbe035a18fccec4080d7a0331bb1bbc532324f40501de5e8ea5c] --private-key $PRIVATE_KEY --rpc-url $ZKSYNC_MAINNET_RPC_URL
+ 1770  cast send 0x0d582B1893613820C8F0A82Ab8ac238Aa815f2D3 "claim(address,uint256,bytes32[])" 0x20F41376c713072937eb02Be70ee1eD0D639966C 25000000000000000000 ["0x32cee63464b09930b5c3f59f955c86694a4c640a03aa57e6f743d8a3ca5c8838","0x8ff683185668cbe035a18fccec4080d7a0331bb1bbc532324f40501de5e8ea5c"] --private-key $PRIVATE_KEY --rpc-url $ZKSYNC_MAINNET_RPC_URL
+ 1771  cast send 0x0d582B1893613820C8F0A82Ab8ac238Aa815f2D3 "claim(address,uint256,bytes32[])" 0x20F41376c713072937eb02Be70ee1eD0D639966C 25000000000000000000 [0x32cee63464b09930b5c3f59f955c86694a4c640a03aa57e6f743d8a3ca5c8838,0x8ff683185668cbe035a18fccec4080d7a0331bb1bbc532324f40501de5e8ea5c] --private-key $PRIVATE_KEY --rpc-url $ZKSYNC_MAINNET_RPC_URL
+ 1772  cast send 0x0d582B1893613820C8F0A82Ab8ac238Aa815f2D3 "claim(address,uint256,bytes32[])" "0x20F41376c713072937eb02Be70ee1eD0D639966C" "25000000000000000000" ["0x32cee63464b09930b5c3f59f955c86694a4c640a03aa57e6f743d8a3ca5c8838","0x8ff683185668cbe035a18fccec4080d7a0331bb1bbc532324f40501de5e8ea5c"] --private-key $PRIVATE_KEY --rpc-url $ZKSYNC_MAINNET_RPC_URL
+ 1773  history > history.txt
+ 1774  cast send 0x0d582B1893613820C8F0A82Ab8ac238Aa815f2D3 "claim(address,uint256,bytes32[])" 0x20F41376c713072937eb02Be70ee1eD0D639966C 25000000000000000000 ["0x32cee63464b09930b5c3f59f955c86694a4c640a03aa57e6f743d8a3ca5c8838","0x8ff683185668cbe035a18fccec4080d7a0331bb1bbc532324f40501de5e8ea5c"] --private-key $PRIVATE_KEY --rpc-url $ZKSYNC_MAINNET_RPC_URL
+ 1775  cast send 0x0d582B1893613820C8F0A82Ab8ac238Aa815f2D3 "claim(address,uint256,bytes32[])" 3d13f87400000000000000000000000020f41376c713072937eb02be70ee1ed0d639966c0000000000000000000000000000000000000000000000015af1d78b58c400000000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000232cee63464b09930b5c3f59f955c86694a4c640a03aa57e6f743d8a3ca5c88388ff683185668cbe035a18fccec4080d7a0331bb1bbc532324f40501de5e8ea5c --private-key $PRIVATE_KEY --rpc-url $ZKSYNC_MAINNET_RPC_URL
+ 1776  cast send 0x0d582B1893613820C8F0A82Ab8ac238Aa815f2D3 "claim(address,uint256,bytes32[])" "3d13f87400000000000000000000000020f41376c713072937eb02be70ee1ed0d639966c0000000000000000000000000000000000000000000000015af1d78b58c400000000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000232cee63464b09930b5c3f59f955c86694a4c640a03aa57e6f743d8a3ca5c88388ff683185668cbe035a18fccec4080d7a0331bb1bbc532324f40501de5e8ea5c" --private-key $PRIVATE_KEY --rpc-url $ZKSYNC_MAINNET_RPC_URL
+ 1777  yarn run makeMerkle
+ 1778  yarn --version
+ 1779  yarn install
+ 1780  yarn run makeMerkle
+ 1781  node --version
+ 1782  nvm --version
+ 1783  nvm install 16
+ 1784  forge coverage
+ 1785  forge coverage --report debug > coverage.tx
+ 1786  forge coverage --report debug > coverage.txt
+ 1787  forge coverage
+ 1788  nvm --version
+ 1789  yarn run makeMerkle
+ 1790  forge test --zksync --match-test testUsersCanClaim
+ 1791  yarn run makeMerkle
+ 1792  forge test --zksync --match-test testUsersCanClaim
+ 1793  forge test --zksync --match-test testUsersCanClaim -vvvv
+ 1794  forge test --zksync --match-test testRevertifwrongAmountToCollect -vvvv
+ 1795  forge test --zksync --match-test testRevertifwrongAmountToCollect
+ 1796  forge test --zksync --match-test testUsersCanClaim
+ 1797  cd First_Flight/2024-04-airdropper/
+ 1798  code .
+ 1799  cd
+ 1800  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
+ 1801  source ~/.bashrc
+ 1802  nvm install --lts
+ 1803  node --version
+ 1804  cd First_Flight/2024-04-airdropper/
+ 1805  code .
+ 1806  cd ..
+ 1807  cd CodeHawks---Findings/
+ 1808  code .
+ 1809  cd ../..
+ 1810  cd Cyfrin/foundry-f23/foundry-defi-stablecoin-f23/
+ 1811  code .
+ 1812  forge test --match-contract MerkleAirdropFuzzing
+ 1813  forge test --match-contract MerkleAirdropFuzzing -vvvv
+ 1814  git add .
+ 1815  git commit -m "Release report of Airdropper First Flight"
+ 1816  git push -u origin main
+ 1817  cd First_Flight/2024-04-airdropper/
+ 1818  code .
+ 1819  cd ..
+ 1820  cd CodeHawks---Findings/
+ 1821  code .
+ 1822  forge test --match-test invariant_protocolMustHaveMoreValueThanTotalSupply -vvvv
+ 1823  cd Cyfrin/foundry-f23/foundry-defi-stablecoin-f23/
+ 1824  code .
+ 1825  cd Cyfrin/foundry-f23/foundry-defi-stablecoin-f23/
+ 1826  code .
+ 1827  forge test --match-test invariant_protocolMustHaveMoreValueThanTotalSupply -vvvv
+ 1828  clear
+ 1829  forge test --match-test invariant_protocolMustHaveMoreValueThanTotalSupply -vvvv
+ 1830  clear
+ 1831  forge test --match-test invariant_protocolMustHaveMoreValueThanTotalSupply
+ 1832  forge test --match-test invariant_protocolMustHaveMoreValueThanTotalSupply -vvvv
+ 1833  clear
+ 1834  forge inspect DSCEngine methods
+ 1835  clear
+ 1836  forge test
+ 1837  forge build
+ 1838  forge test
+ 1839  cd Cyfrin/foundry-f23/foundry-defi-stablecoin-f23/
+ 1840  code .
+ 1841  forge build
+ 1842  forge compile
+ 1843  forge test
+ 1844  forge compile -h
+ 1845  forge compile --contracts-to-compile ./src/DSCEngine.sol
+ 1846  forge test -h
+ 1847  forge test --avoid-contracts ./src/DSCEngine.sol
+ 1848  forge test --avoid-contracts DSCEngine.sol
+ 1849  forge test -h
+ 1850  forge test --libraries OracleLib
+ 1851  forge test --libraries OracleLib.sol
+ 1852  forge compile OracleLib.sol
+ 1853  forge compile OracleLib
+ 1854  forge compile --contracts-to-compile OracleLib.sol
+ 1855  forge compile --contracts-to-compile ./src/Libraries/OracleLib.sol
+ 1856  forge test
+ 1857  clear
+ 1858  forge test --avoid-contracts ./src/DSCEngine.sol
+ 1859  forge compile --contracts-to-compile ./src/DSCEngine.sol
+ 1860  forge coverage
+ 1861  forge test
+ 1862  forge coverage
+ 1863  clear
+ 1864  git add .
+ 1865  git commit -m "Release of Stable coin smartcontract from Cyfrin"
+ 1866  git remote add origin https://github.com/activiteOCR/foundry-defi-stablecoin-f23.git
+ 1867  git push -u origin main
+ 1868  git push -u origin master
+ 1869  history > history.txt

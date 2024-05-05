@@ -1,0 +1,42 @@
+{
+  "language": "Solidity",
+  "sources": {
+    "test/fuzz/OpenInvariantsTest.t.sol": {
+      "content": "// SPDX-License-Identifier: MIT\n\n// Have our invariant aka properties\n\n// What are our invariant:\n// 1. The total supply of DSC should be less than the total value of collateral\n// 2. Getter view functions should never revert <- evergreen invariant\n\npragma solidity ^0.8.19;\n\n// import {Test, console} from \"forge-std/Test.sol\";\n// import {StdInvariant} from \"forge-std/StdInvariant.sol\";\n// import {DeployDSC} from \"../../script/DeployDSC.s.sol\";\n// import {DSCEngine} from \"../../src/DSCEngine.sol\";\n// import {DecentralizedStableCoin} from \"../../src/DecentralizedStableCoin.sol\";\n// import {HelperConfig} from \"../../script/HelperConfig.s.sol\";\n// import {ERC20Mock} from \"../mocks/ERC20Mock.sol\";\n\n// contract OpenInvariantsTest is StdInvariant, Test {\n//     DeployDSC deployer;\n//     DSCEngine dsce;\n//     DecentralizedStableCoin dsc;\n//     HelperConfig config;\n\n//     address public ethUsdPriceFeed;\n//     address public btcUsdPriceFeed;\n//     address public weth;\n//     address public wbtc;\n\n//     function setUp() public {\n//         deployer = new DeployDSC();\n//         (dsc, dsce, config) = deployer.run();\n//         (,, weth, wbtc,) = config.activeNetworkConfig();\n//         targetContract(address(dsce));\n//     }\n\n//     function invariant_protocolMustHaveMoreValueThanTotalSupply() public view {\n//         // Get the all value of collateral in the protocol compare it to all the debt (DSC)\n//         uint256 totalSupply = dsc.totalSupply();\n//         uint256 totalWethDeposited = ERC20Mock(weth).balanceOf(address(dsc));\n//         uint256 totalWbtcDeposited = ERC20Mock(wbtc).balanceOf(address(dsc));\n\n//         uint256 wethValue = dsce.getUsdValue(weth, totalWethDeposited);\n//         uint256 wbtcValue = dsce.getUsdValue(wbtc, totalWbtcDeposited);\n\n//         console.log(\"wethValue: %s\", wethValue);\n//         console.log(\"wbtcValue: %s\", wbtcValue);\n\n//         assert(wethValue + wbtcValue >= totalSupply);\n//     }\n// }\n"
+    }
+  },
+  "settings": {
+    "remappings": [
+      "@chainlink/contracts/=lib/chainlink-brownie-contracts/contracts/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+      "chainlink-brownie-contracts/=lib/chainlink-brownie-contracts/",
+      "ds-test/=lib/openzeppelin-contracts/lib/forge-std/lib/ds-test/src/",
+      "erc4626-tests/=lib/openzeppelin-contracts/lib/erc4626-tests/",
+      "forge-std/=lib/forge-std/src/",
+      "openzeppelin-contracts/=lib/openzeppelin-contracts/"
+    ],
+    "optimizer": {
+      "enabled": true,
+      "mode": "3",
+      "details": null,
+      "fallbackToOptimizingForSize": false,
+      "disableSystemRequestMemoization": true
+    },
+    "outputSelection": {
+      "*": {
+        "": [
+          "metadata"
+        ],
+        "*": [
+          "abi",
+          "evm.methodIdentifiers"
+        ]
+      }
+    },
+    "libraries": {},
+    "isSystem": false,
+    "forceEvmla": false,
+    "areLibrariesMissing": false
+  }
+}

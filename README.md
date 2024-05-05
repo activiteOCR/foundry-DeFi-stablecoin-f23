@@ -1,8 +1,8 @@
 Stablecoin design:
 
-1. Relative Stability: Anchored or pegged -> $1.00
+1. Relative Stability: Anchored or pegged: $1.00
    1.1 Chain link price feed
-   1.2 Set a function to exchange ETH & BTC -> $$$
+   1.2 Set a function to exchange ETH & BTC: $$$
 2. Stability Mechanism (Minting): Algorithmic (Decentralized)
    2.1 People can only mint stablecoin with enough collateral (coded)
 3. Collateral: Exogenous (Crypto)
